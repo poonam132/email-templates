@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 664px;
+    height: 1342px;
+    margin: 0 auto;
+}
+.header-banner{
+    background-image: url("img/bg_yellow2.png");
+    background-size: cover;
+    height: 454.44px;
+}
+main.main-section {
+    padding: 0px 70px;
+}
+.banner-text {
+    color: #2E447D;
+    text-align: center;
+    font: 46px Nunito;
+    letter-spacing: 0px;
+    font-weight: 900;
+    padding-top: 50px;
+    line-height: 52px;
+}
+.main-content {
+    padding: 45px 0px 0px 0px;
+}
+.text-1500{
+    color: #2E447D;
+    font-size: 21px;
+    text-align: left;
+    /* margin-top: 10px; */
+    margin:30px 0;
+    
+}
+.text-1500 span{
+    font-weight: 900;
+}
+.text-9milliards{
+    color: #2E447D;
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 40px;
+}
+.text-9milliards span{
+    color: #FFD200;
+}
+.solar-img img {
+    margin-left: 20%;   
+}
+
+.calculer-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #FFFFFF;
+}
+.calculer-btn {
+    font-family: 'Nunito';
+    padding: 21px 4px;
+    width: 100%;
+    background: #00A513;
+    max-width: 260px;
+    height: 57px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px 0;
+}
+h3.footer-txt {
+    color: white;
+    font-family: 'Nunito';
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 30px 0px;
+    text-align: center;
+}
+.footer-blue{
+    background-color: #2E447D;
+}
+
+@media screen and (max-width: 425px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .solar-img img {
+        width: 100%;
+    }
+    .solar-img img {
+        margin-left: 0;
+    }
+    h1.banner-text {
+        font-size: 24px;
+        line-height: 40px;
+        padding: 20px;
+    }
+    main.main-section {
+        padding: 0px 20px 20px;
+    }
+    .text-9milliards {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .text-1500 {
+        font-size: 16px;
+    }
+    h3.footer-txt {
+        font-size: 18px;
+        padding: 20px;
+    }
+}

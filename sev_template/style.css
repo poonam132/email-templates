@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 664px;
+    height: 1694px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 80px 31px;
+}
+.heading h1 {
+    font-size: 47px;
+    font-family: po;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+span.heading-text {
+    color: #F0C055;
+}
+section.lists-section {
+    padding: 50px 0px;
+}
+.lists-first ul {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+ul.fa-ul {
+    margin: 7px;
+}
+li.lists-sec {
+    width: 100%;
+    max-width: 220px;
+}
+li.lists-thi {
+    width: 100%;
+    max-width: 113px;
+}
+li {
+    margin: 0px 27px;
+}
+span.fa-li {
+    color: #00CE37;
+    font-size: 24px;
+}
+.ac-main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box h4 {
+    font-size: 25px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+span.box-text {
+    font-size: 35px;
+}
+.box {
+    width: 100%;
+    max-width: 516px;
+    padding: 0px 40px;
+    border-left: 5px solid #FFBA00;
+    margin: 70px 0px 0px 0px;
+}
+.box-text p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+    padding: 30px 0px;
+}
+.calculer-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+.calculer-btn a {
+    padding: 24px 28px;
+    width: 100%;
+    background: #FFBA00;
+    max-width: 370px;
+    font-size: 24px;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.satisfaction-clients {
+    display: flex;
+}
+.satisfaction-clients-review h4 {
+    padding-bottom: 16px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.satisfaction-clients-text {
+    background: white;
+    padding: 35px;
+    box-shadow: 0px 0px 0px 1px #ebebeb;
+    width: 100%;
+    max-width: 330px;
+    border-radius: 20px;
+}
+.satisfaction-clients-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-bottom: 26px;
+}
+.satisfaction-clients-text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+}
+.satisfaction-clients-text h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+.satisfaction-clients-text a {
+    color: #0089FF;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) { 
+
+    .container {
+        width: 100%;
+        max-width: 425px;
+        height: 1950px;
+        margin: 0 auto;
+        /* border: 1px solid; */
+        padding: 80px 34px;
+    }
+
+    .heading h1 {
+        font-size: 35px;
+    }
+    .lists-first ul {
+        display: block;
+    }
+    li {
+        margin: 0px 0px 34px 36px;
+    }
+    .box {
+        padding: 0px 15px;
+        margin: 33px 0px 0px 0px;
+    }
+    .box h4 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .calculer-btn a {
+        padding: 24px 23px;
+    }
+    .satisfaction-clients {
+        display: flex;
+        flex-direction: column;
+    }
+    .satisfaction-clients-review {
+        margin-bottom: 20px;
+        margin-top: 40px;
+        order: 2;
+    }
+    .satisfaction-clients-text {
+        width: 100%;
+        max-width: 360px;
+
+    }
+}
+@media screen and (min-width: 320px) {
+    .ac-main-img img {
+        width: 100%;
+    }
+    .calculer-btn a {
+        padding: 26px 9px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .container {
+    
+        height: auto;
+}
+}
+@media screen and (min-width: 375px) {
+    .container {
+    
+        height: auto;
+}
+}

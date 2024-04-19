@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 664px;
+    height: 1807px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.header-banner {
+    background-color: #FF5C5C;
+    padding: 16px;
+}
+.header-banner p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+.heading {
+    padding: 54px;
+}
+.heading h1 {
+    color: #074392;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 42px;
+}
+.propriétaire-heading {
+    padding: 24px 54px 10px 54px;
+}
+.propriétaire-heading h2 {
+    font-size: 30px;
+    line-height: 45px;
+}
+.propriétaire-main {
+    display: flex;
+    padding: 0px 54px 54px 54px;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+}
+.propriétaire-first p {
+    font-size: 20px;
+    line-height: 32px;
+    color: black;
+}
+.propriétaire-first a {
+    color: #0089FF;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 66px;
+}
+.price-table {
+    padding: 0px 30px 70px 30px;
+}
+.price-table table {
+    border-radius: 79px;
+    border-collapse: collapse;
+    border-radius: 30px;
+    border-style: hidden;
+    box-shadow: 0 0 0 2px #F4F4F4;
+}
+.price-table th, td {
+    border: 2px solid #F4F4F4;
+    border-collapse: collapse;
+    padding: 40px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #2D2E45;
+}
+.price-table td {
+    width: 100%;
+    max-width: 67%;
+}
+td.table-row-sec {
+    font-size: 30px; 
+    font-weight: bold;
+}
+tr.table-row-third {
+    background: #EFFFEF;
+}
+tr.table-row-third td {
+    color: #0A910D;
+}
+.calculer-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.calculer-btn a {
+    padding: 24px 28px;
+    width: 100%;
+    background: #F0316C;
+    max-width: 350px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.lists {
+    padding: 0px 54px 54px 54px;
+}
+.lists ul {
+    list-style: none;
+}
+span.btn-arrow {
+    padding-left: 20px;
+}
+.lists ul li {
+    color: #2D2E45;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 20px 0px;
+}
+span.fa-li {
+    color: #EF306B;
+    font-size: 30px;
+}
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-btn a{
+    color: #0089FF;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 66px;
+}
+
+/* five template end */
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) { 
+    .container {
+        width: 100%;
+        max-width: 425px;
+        height: 2045px;
+        margin: 0 auto;
+        /* border: 1px solid; */
+    }
+    .heading {
+        padding: 60px 34px 40px;
+    }
+    .heading h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .propriétaire-heading {
+        padding: 24px 34px 10px 34px;
+    }
+    .propriétaire-main {
+        display: block;
+        padding: 0px 34px 54px 34px;
+        width: 100%;
+    }
+    .footer-btn a, .propriétaire-first a {
+        line-height: 100px;
+        font-size: 19px;
+    }
+    .propriétaire-second {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .price-table th, td {
+        padding: 22px 23px;
+        font-size: 20px;
+    }
+    td.table-row-sec {
+        font-size: 17px;
+    }
+    .lists {
+        padding: 0px 34px 54px 34px;
+    }
+    .lists ul li {
+        color: #2D2E45;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 26px;
+        padding: 13px 0px;
+    }
+}
+@media screen and (min-width: 375px) {
+    .footer-btn a, .propriétaire-first a {
+        line-height: 95px;
+        font-size: 17px;
+    }
+    .container {
+        height: auto;    
+    }
+}
+@media screen and (min-width: 320px) {
+    .footer-btn a, .propriétaire-first a {
+        font-size: 14px;
+    }
+    .price-table th, td {
+        padding: 19px 8px;
+        font-size: 16px;
+    }
+    .calculer-btn a {
+        padding: 22px 14px;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 12px;
+    }
+    .container {
+        height: auto;    
+    }
+}

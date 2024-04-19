@@ -1,0 +1,225 @@
+body {
+    max-width:664px;
+    margin: 0 auto;
+    background-color:#F8F8F8;
+}
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: 664px;
+}
+.banner-section {
+    background-image: url('./Images/panneaux-solaires.png');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0px;
+    min-height: 571px;
+    background-color: #FFFFFF;
+}
+.logo {
+    max-width: 33px;
+    height: 58px;
+    margin: 0 auto;
+}
+.heading-1 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 0px #0014FF;
+    text-transform: uppercase;
+    opacity: 1;
+    padding: 0;
+}
+.heading-1 h1 {
+    padding: 0px !important;
+    margin: 12px;
+}
+
+.heading-2 {
+    margin: 0 auto;
+    /* top: 306px;
+    left: 97px; */
+    max-width: 537px;
+    /* height: 89px; */
+    background: #FFA700 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #fff;
+}
+
+#head-2 {
+    text-align: center;
+    font: normal normal medium 23px/27px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family:'Poppins';
+    font-size:23px;
+    font-weight:400;
+}
+
+.img-2 img {
+    float: right;
+    padding: 30px 27px 0 0;
+}
+
+.middle-section {
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0px;
+    min-height: 500px;
+    background-color: #FFFFFF;
+}
+/* .sec-head
+{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+} */
+.section-heading
+{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    /* padding-top:109px; */
+}
+.section-heading h1 {
+    text-align: center;
+    font-size:20px;
+    font-weight:700;
+    font-family:'Poppins';
+    letter-spacing: 0px;
+    color: #122A46;
+    opacity: 1;
+    /* padding-top: 60px; */
+}
+.col-1 h1 {
+    margin: 0;
+    text-align: start;
+}
+.common-div {
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.common-row h5 {
+    width: 345px;
+    height: 14px;
+    text-align: left;
+    font-family:'Poppins';
+    letter-spacing: 0px;
+    font-size:15px;
+    color: #122A46;
+    margin: 20px 0px;
+}
+p {
+    text-align: left;
+    font: normal normal normal 16px/27px Nunito;
+    letter-spacing: 0px;
+    color: #122A46;
+    margin: 0;
+    font-size: 17px;
+}
+.row2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    /* margin-left: 144px; */
+    padding: 5px 0;
+    align-items: center;
+}
+.button-section
+{
+    margin: auto 0;
+    background-color: #FFFFFF;
+}
+.Image-section {
+    background-color: #52BFB9;
+}
+.Image-section h1{
+    font-family:'Poppins'; 
+    font-size: 23px;
+    padding: 0 45px 0 45px;
+    font-weight: 700;
+}
+.heading{
+    text-align: center;
+    font-family:'Poppins';
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 0px #0014FF;
+    text-transform: uppercase;
+    opacity: 1;
+    padding: 15px;
+}
+/* .button-logo {
+    padding-bottom: 30px;
+    width: 100%;
+    max-width: 664px;
+} */
+.row11{
+    display: flex;
+    max-width: 100%;
+}
+.div-1
+{
+   width:33.33%;
+   margin:50px 0px 50px 0px;
+}
+.last-section
+{
+    background-color: #FFFFFF;
+}
+.calculer-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #FFFFFF;
+}
+.calculer-btn a {
+    font-family: 'poppins';
+    padding: 24px 4px;
+    width: 100%;
+    background: #F0316C;
+    max-width: 350px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .heading-1 {
+        font-size: 28px;
+    }
+    body{
+        max-width: 500px;
+       width:100%;
+    }
+    .common-row h5 {
+        width: unset;
+        height: unset;
+        margin: 0px 0px;
+    }
+    .row2 {
+        padding: 10px 10px;
+    }
+    .img-2 img {
+        float: right;
+        padding: 0px 0px 0 0;
+    }
+
+}
+

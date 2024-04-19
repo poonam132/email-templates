@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&family=Poppins:wght@400;700;900&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&family=Poppins:wght@900&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&family=Poppins:wght@700;900&family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    width: 664px;
+    height: 1154px;
+    margin: 0 auto;
+    
+}
+/*section.main-box {
+    padding: 25px 102px;
+}*/
+h3.top-heading {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 102px;
+    color: white;
+    text-align: center;
+}
+h3.sub-heading {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 45px;
+    padding: 20px 12px;
+    color: white;
+    padding-top: 120px;
+}
+.banner-img img {
+    margin-left: 28%;
+}
+
+.calculer-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #FFFFFF;
+}
+.calculer-btn {
+    font-family: 'Nunito';
+    padding: 21px 4px;
+    width: 100%;
+    background: #009875;
+    max-width: 315px;
+    height: 85px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px 0;
+}
+span.btn-arrow {
+    margin-left: 20px;
+}
+.banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-try h3 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.banner-try p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 25px;
+  }
+  .icon-box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-text {
+    text-align: center;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+section.text-tr {
+    padding: 0px 51px;
+}
+section.test-baner {
+    padding: 52px 51px;
+}
+
+
+.orange-img {
+    background-image: url(images/bleu.png);
+    height: 386px;
+}
+.blue-img {
+    background-image: url('images/Path.png');
+    height: 95px;
+    background-repeat: no-repeat;
+}
+.banner-img img {
+    margin-left: 28%;
+    margin-top: -160px;
+}
+footer {
+    padding: 62px 0px;
+}
+
+@media screen and (max-width: 425px){
+    .container {
+        width: 100%;
+        height: auto;
+    } 
+    .blue-img{
+        height: 100px;
+    }
+    h3.top-heading {
+        font-size: 18px;
+        padding: 20px;
+    }
+    h3.sub-heading {
+        font-size: 24px;
+        padding: 50px 20px;
+    }
+    .banner-img img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .banner-try h3 {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    .banner-try p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .icon-box-main {
+        flex-direction: column;
+    }
+    button.estimez-btn {
+        width: 90%;
+    }
+}
